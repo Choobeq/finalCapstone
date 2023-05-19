@@ -26,6 +26,7 @@ Using Task Manager you can:
 Type 'r' and press enter.
 Provide user name and password (twice)
 Program will check if user exist and ifboth passwords match.
+![Screenshot of the 'registering user' option.](./pictures/registering_new_user.png)
 
 ### Adding new task
 Type 'a' and press enter.
