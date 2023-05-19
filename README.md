@@ -26,6 +26,7 @@ Using Task Manager you can:
 Type 'r' and press enter.
 Provide user name and password (twice)
 Program will check if user exist and ifboth passwords match.
+
 ![Screenshot of the 'registering user' option.](./pictures/registering_new_user.png)
 
 ### Adding new task
@@ -33,15 +34,21 @@ Type 'a' and press enter.
 Enter username of the person whom the task is assigned to, a titl of a task, a description of the task and set the due date for the task.
 To add task user must exists.
 
+![Screenshot of the 'adding a new task' option.](./pictures/adding_task.png)
+
 ### Viewing all tasks
 Type 'va' and press enter.
 Program will display on the screen list of all tasks, username assigned to a task, the date it was assigned to a user,
 due date and task description.
 
+![Screenshot of the 'view all tasks' option.](./pictures/view_all_tasks.png)
+
 ### Viewing (and editing) tasks currently logged user
 Type 'vm' and press enter.
 Function will display only tasks assigned to the user currently logged in and offer additional options to edit task or mark it as completed.
 User can't edit a completed task.
+
+![Screenshot of the 'view my tasks' option.](./pictures/view_my_tasks.png)
 
 ### Creating reports
 Type 'gr' and press enter.
@@ -49,11 +56,15 @@ Function will generate two reports and save both into separate files:
 - summary about tasks to file task_overview.txt
 - summary about users to file user_overview.txt
 
+![Screenshot of the 'generate reports' option.](./pictures/generate_reports.png)
+
 ### Viewing statistics (admin user only)
 Type 'ds' and press enter.
 This option is available only for 'admin' user.
 This function will check if the reports are generated ('Generate reports' option) and if not it will create the reports first.
 Then it will load from the generated files and siplay statistics on the screen.
+
+![Screenshot of the 'display_statistics' option.](./pictures/display_statistics.png)
 
 ### Exiting the Task Manager
 Type 'e' and press enter to finish working with the Task manager.
