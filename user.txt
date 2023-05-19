@@ -1,0 +1,3 @@
+admin;password
+Metacom;1234
+Thorgal;alinoe
