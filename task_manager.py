@@ -341,7 +341,7 @@ for t_str in task_data:
 # If no user.txt file, write one with a default account
 if not os.path.exists("user.txt"):
     with open("user.txt", "w") as default_file:
-        default_file.write("admin;password")
+        default_file.write("admin;qwerty")
 
 # Read in user_data
 with open("user.txt", 'r') as user_file:
